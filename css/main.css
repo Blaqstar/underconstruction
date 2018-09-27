@@ -65,9 +65,18 @@ body {
   padding: 4rem 1rem;
 }
 
+.services div a {
+  color: #fff;
+  transition: all 1500ms;
+}
+
+.services div a:hover {
+  color: #FFF07C;
+}
+
 .grid-3{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
 
